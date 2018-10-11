@@ -1,0 +1,10 @@
+User story: As a user, I will be provided with all the prices of various ticketing websites for each show found.
+
+Story description:
+
+Once all of the shows of the user's artists/recommended artists are found, user will have option to select any show from the 
+list. From there, the application will direct them to a different web page for that given show, displaying various prices of 
+tickets for selected show from various ticket vendor websites. Each price option will provide a link to the given ticketing
+website for user to continue to purchase the ticket itself separate from the web application. If web application doesn't find
+tickets for the given show, it will appropriately inform the user that there are no tickets available.
+
