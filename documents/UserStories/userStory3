@@ -1,0 +1,5 @@
+As a user, I should be able to set the location of my choosing to see shows.
+
+The user will be asked to input the city they are interested in at the moment.
+The web application will show a list of suggested cities close to what you typed to
+select from.
