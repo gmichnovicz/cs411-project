@@ -1,0 +1,7 @@
+User story: As a user, I should be able to authenticate the music library of my choice upon login.
+
+Summary: The user, upon entry into the web application and after account registration (from story 1) will be 
+given the option to authenticate either their Apple Music Library or their Spotify Library. From there,
+the user must enter their personal credentials for this. If credentials are entered successfully, then the 
+user will gain access to the web application. If credentials are entered unsuccessfully, the user will be asked 
+to reenter the credentials until they are entered correctly.
