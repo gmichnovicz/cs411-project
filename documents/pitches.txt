@@ -1,0 +1,30 @@
+## Maria Castellaneta, Shiwei (Leo) Chen, Brooke Mullen, Grace Michnovicz
+
+Pitch 1: Music streaming today allows for users to constantly update and organize all of their favorite artists’ music. 
+A lot of times it’s not easy to find the most current and local live shows by your favorite artists without having to do 
+some independent searching. This application would allow users to authenticate their Spotify or Apple Music libraries, 
+and the application would sift through all of their playlists and music preferences. From there, it will search for local
+shows and events that feature the artists in the users library, as well as suggestions of shows that are similar to
+their music taste. From there, the application will also interact with multiple ticketing applications to provide the 
+best prices available for all the events found as well as direct links to the ticketing websites for booking purposes.
+The application will use a database to store the shows you’ve attended so the user can review history of the shows they’ve 
+attended.
+
+APIs: 
+
+Music access:
+Spotify: https://developer.spotify.com/
+
+Apple music: https://developer.apple.com/documentation/applemusicapi?changes=_9
+
+Event information:
+
+Eventful:  http://api.eventful.com/
+
+Ticketmaster: https://developer.ticketmaster.com/
+
+Eventbrite: https://www.eventbrite.com/developer/v3/
+
+Stubhub: https://developer.stubhub.com/store/site/pages/doc-reference.jag
+
+
