@@ -1,0 +1,9 @@
+User Story: As a user, I should be able to see the local shows of the artists in my library as well as artists recommended 
+for me.
+
+Story description: 
+
+Upon entering a correct city, the user will be able to see list of concerts based on their favorite artists on their Apple 
+Music Library or Spotify library as well as a list of recommended concerts based on their favorites on their Apple Music 
+library or Spotify library. If there are no concerts in their selected area for their favorite artists, the web application 
+will only show recommended artists concerts. 

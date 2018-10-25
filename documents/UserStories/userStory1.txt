@@ -1,0 +1,12 @@
+User Story: 
+
+As a user, I should be able to create a personal account on the web application.
+
+Summary: 
+
+The user, upon first accessing the web application will be asked to either login to their account 
+or create a new account. If the user has an account, then the user will login with proper credentials. 
+If credentials are correct, then user is logged into the web application. If credentials are incorrect, 
+the user will be prompted again, or (offered option to reset password?). New users will be given option 
+to create a new account with basic information to fill in. If information is missing from signup form, 
+the user will be asked to be sure to input all necessary information. 
