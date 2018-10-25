@@ -1,0 +1,17 @@
+{% load staticfiles %}
+<!doctype html>
+<html>
+    <head>
+        <title>
+            {% block title %}
+                411 Prototype
+            {% endblock title %}
+        </title>
+        <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+        {% block header %}{% endblock header %}
+    </head>
+    <body>
+        {% block content %}{% endblock content %}
+        {% block footer %}{% endblock footer %}
+    </body>
+</html>

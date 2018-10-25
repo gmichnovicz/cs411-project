@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block title %}
+    Results - {{ block.super }}
+{% endblock title %}
+
+{% block content %}
+    <h1>Query Results</h1>
+    <!-- here’s the variable we are passing in -->
+    <p>{% if artist %}Artist: {{artist}}{% endif %}</p>
+    <p>{% if location %}Location: {{location}}{% endif %}</p>
+
+{% endblock content %}
