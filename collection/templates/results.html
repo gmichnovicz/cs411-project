@@ -7,6 +7,9 @@
     <h1>Query Results</h1>
     <!-- here’s the variable we are passing in -->
     <p>{% if artist %}Artist: {{artist}}{% endif %}</p>
-    <p>{% if location %}Location: {{location}}{% endif %}</p>
-
+    <p>{% if address %}Location: {{address}}{% endif %}</p>
+    <p>{% if city %}City: {{city}}{% endif %}</p>
+    <p>{% if zipcode %}Zipcode: {{zip}}{% endif %}</p>
+    <p>{% if start %}Start time: {{start}}{% endif %}</p>
+    <p>{% if descript %}Description: {{descript}}{% endif %}</p>
 {% endblock content %}
