@@ -17,8 +17,10 @@ def apiquery(request):
         artist = request.POST.get('artist', '')
         location = request.POST.get('location', '')
         results = services.get_results(artist,location)
-        # if results == []: ADD ERROR CATCHING
-        #     pass
+        if results == []: 
+            return render(request,'results.html',{})
+
+
         return render(request,'results.html',{
             'artist': results['name'],
             'address':results['address'],
